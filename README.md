@@ -1,4 +1,4 @@
-## Nova Searchabl Dependent Filter
+## Nova Searchable Dependent Filter
 
 This package provides filters what depends of another filters.
 

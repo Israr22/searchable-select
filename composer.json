@@ -1,0 +1,38 @@
+{
+    "name": "israr22/searchable-select",
+    "description": "A Laravel Nova Searchable Dependent Select filter.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "dependent",
+        "select",
+        "searchable"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohd Israr",
+            "email": "israr.workplace@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Israr22\\SearchableSelect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Israr22\\SearchableSelect\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
